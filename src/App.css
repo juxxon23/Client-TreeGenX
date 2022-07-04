@@ -1,38 +1,106 @@
-.App {
+body {
+  background-color: #1d2026;
+  font-family: 'Cabin', sans-serif;
+}
+
+.Header {
+  background-color: #282c34;
+  color: #dbd9e2;
+  padding: 1%;
+  border-bottom: 8px groove white;
+}
+
+h1 {
+  border-style: groove;
+  padding: 1%;
+  background-color: #2a2834;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homeBtn {
+  background-color: #2a2834;
+  color: #dbd9e2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homeBtn:hover {
+  background-color: #49515f;
+  color: #282c34;
+  border-style: groove;
+}
+
+.login-cont2 {
+  background-color: #363c47;
+  padding: 2% 0 3% 0;
+
+}
+
+.form-cont {
+  text-align: center;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin: 2% 0 2% 0;
+  background-color: #474f5e;
+  padding: 2% 0 2% 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.login-form {
+    margin: 10% 0 2% 0;
+}
+
+.form-inp {
+  margin: 0 0 4% 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-lbl {
+  color: #dbd9e2;
+  font-size: 18px;
+}
+
+.form-btn {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  border-color: #363342;
+  padding: 1% 2%;
+  font-size: 18px;
+}
+
+.signup-lnk {
+  color: #dbd9e2;
+}
+
+.signup-msg {
+  color: #1d2026;
+  font-weight: bold;
+}
+
+.wlcm-msg {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.signin-cont2 {
+  background-color: #363c47;
+  padding: 2% 0 3% 0;
+}
+
+.signin-form {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signin-flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.signin-gr1 {
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signin-gr2 {
+  float: right;
 }
